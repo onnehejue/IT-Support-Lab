@@ -16,3 +16,9 @@
 *.zip
 Thumbs.db
 .DS_Store
+
+# Allow only the selected evidence in task screenshot folders.
+!Active-Directory/screenshots/*.png
+!Windows-11-Support/screenshots/*.png
+!Networking-DNS/screenshots/*.png
+!Microsoft-365-Entra/screenshots/*.png

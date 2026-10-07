@@ -12,10 +12,11 @@ Verified connectivity between the Windows 11 client and its domain controller on
 
 ## Outcome
 
-The user reported ping replies, working hostname connectivity and completion of the DNS lookup. The lab conversation recorded DNS resolution as working. No configuration change is attributed to this verification sequence.
+The supplied screenshots show four ping replies with 0% loss by IP and hostname. The DNS lookup returns nexora.local at 192.168.10.10 after an initial timeout and Unknown server label; that warning remains part of the record. No configuration change is attributed to this verification sequence.
 
 External internet connectivity was not established: the internal network had no default gateway. Resolution of the later GroupPolicy Event 1054 is not claimed.
 
-## Evidence
+## Screenshot process evidence
 
-Original manual capture referenced: `11-Network-Troubleshooting-Verification.png` (not attached). Generated command-output images are excluded.
+- [IP, ping and DNS verification](../Networking-DNS/02-Network-Verification.md)
+- [Earlier discovery failure and investigation](../Networking-DNS/01-DNS-Investigation.md)

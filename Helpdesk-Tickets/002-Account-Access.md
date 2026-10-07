@@ -14,6 +14,7 @@ Opened Sarah's account in Microsoft 365 Admin Center. Saved the setting to block
 
 Both administrative changes were confirmed; the test account was left unblocked. An actual end-user sign-in test, session revocation or security-incident investigation is not established by the record.
 
-## Evidence
+## Screenshot process evidence
 
-Original capture referenced: `16-Microsoft-365-Block-User-Sign-In.png` (not attached). The unblock outcome is recorded in the lab conversation.
+- [Cloud block and unblock sequence](../Microsoft-365-Entra/03-Block-Unblock.md)
+- [Separate domain-account recovery and sign-in](../Active-Directory/03-Account-Access.md)

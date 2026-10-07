@@ -1,31 +1,11 @@
-# Microsoft 365 and Microsoft Entra
+# Microsoft 365 Entra
 
-## Completed administration
+Cloud test-user administration, licensing, passwords, sign-in access, groups and per-user MFA. These accounts and groups are separate from their on-premises equivalents.
 
-The lab conversation records:
+## Task walkthroughs
 
-- Created the Sarah Williams test user and assigned Microsoft 365 Business Basic.
-- Reset Sarah's password; the admin centre displayed a success confirmation with the password hidden.
-- Blocked Sarah's sign-in, then unblocked it; both changes received administrative confirmation.
-- Created the `HR-Users` security group and added Sarah; the member list showed one member.
-- Enabled per-user MFA for Sarah in Microsoft Entra; after refresh, her status showed **enabled**.
-
-MFA registration, an enforced status, Conditional Access configuration and a successful MFA sign-in are not established by this record.
-
-## Related tickets
-
-- [001: Password reset](../Helpdesk-Tickets/001-Password-Reset.md)
-- [002: Block and unblock sign-in](../Helpdesk-Tickets/002-Account-Access.md)
-- [005: Enable per-user MFA](../Helpdesk-Tickets/005-Entra-MFA.md)
-
-## Evidence checklist
-
-Original captures to locate and review:
-
-- `14-Microsoft-365-User-Created.png`
-- `15-Microsoft-365-Password-Reset.png`
-- `16-Microsoft-365-Block-User-Sign-In.png`
-- `17-Microsoft-365-Security-Group-Membership.png`
-- `18-Microsoft-Entra-MFA-Enabled.png`
-
-No screenshots are attached in this version. Passwords, authentication QR codes, personal contact details and unrelated tenant information must be removed from any future evidence before publication.
+- [Create and license a Microsoft 365 lab user](01-User-Licensing.md) — 3 stages.
+- [Reset the Microsoft 365 password](02-Password-Reset.md) — 2 stages.
+- [Block and restore cloud sign-in](03-Block-Unblock.md) — 5 stages.
+- [Create a security group and add a member](04-Security-Group.md) — 7 stages.
+- [Enable per-user MFA](05-MFA.md) — 4 stages.

@@ -14,6 +14,6 @@ Opened the per-user MFA page from Microsoft 365 administration. Selected Sarah's
 
 The administrative status change was verified in the refreshed list. This does not establish MFA method registration, an enforced status, a successful MFA challenge or Conditional Access policy configuration.
 
-## Evidence
+## Screenshot process evidence
 
-Original capture referenced: `18-Microsoft-Entra-MFA-Enabled.png` (not attached). No authentication secrets or QR codes are included.
+- [MFA selection, confirmation and refreshed status](../Microsoft-365-Entra/05-MFA.md)

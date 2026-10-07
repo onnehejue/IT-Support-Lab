@@ -14,6 +14,7 @@ Practised resetting the test user's password in Microsoft 365 Admin Center. Open
 
 Administrative success was confirmed. No forgotten-password report, identity-verification conversation, delivery of credentials or subsequent user sign-in is claimed.
 
-## Evidence
+## Screenshot process evidence
 
-The earlier conversation identified original capture `15-Microsoft-365-Password-Reset.png`. It is not attached in this repository. Passwords are excluded from this record.
+- [Microsoft 365 reset options and success](../Microsoft-365-Entra/02-Password-Reset.md)
+- [Separate Active Directory reset sequence](../Active-Directory/02-Password-Reset.md)

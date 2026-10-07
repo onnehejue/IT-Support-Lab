@@ -21,7 +21,9 @@ A beginner IT support portfolio documenting hands-on practice in a virtual Windo
 
 ## Evidence and scope
 
-These notes were reconstructed from the completed lab conversation. Screenshots are not included in this first version: earlier materials included both real captures and generated simulations, so none have been treated as verified screenshot evidence here. References to screenshot filenames are an evidence checklist, not links to files already present.
+The task walkthroughs now include 60 relevant supplied screenshots, organised into 14 numbered process sequences with captions. Images are copied unchanged from the supplied originals. The captions distinguish preparation, actions, confirmations, warnings and unresolved outcomes. Screenshots support the visible stage; they do not establish steps or tests that are absent. Generated simulations are excluded.
+
+[View the screenshot evidence index](EVIDENCE.md).
 
 The ticket format demonstrates documentation skills. Priorities are illustrative, while customer reports, response times and SLA compliance are not claimed. Administrative confirmation is distinguished from end-user testing. Enabling per-user MFA does not establish successful enrolment, enforcement or an MFA sign-in test.
 
