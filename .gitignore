@@ -1,0 +1,18 @@
+# Keep local secrets, VM files and raw/unreviewed screenshots out of the portfolio.
+.env
+.env.*
+*.key
+*.pem
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.iso
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+Thumbs.db
+.DS_Store
